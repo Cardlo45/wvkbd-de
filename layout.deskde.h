@@ -194,7 +194,7 @@ static struct key de_full[] = {
     {"n", "N", 1.0, Code, KEY_N, &layouts[ComposeN]},
     {"m", "M", 1.0, Code, KEY_M, &layouts[ComposeM]},
     {",", ";", 1.0, Code, KEY_COMMA, &layouts[ComposeMath]},
-    {".", ":" 1.0, Code, KEY_DOT, &layouts[ComposePunctuation]},
+    {".", ":", 1.0, Code, KEY_DOT, &layouts[ComposePunctuation]},
     {"-", "_", 1.0, Code, KEY_SLASH},
     {"↑", "↑", 1.0, Code, KEY_UP, .scheme = 1},
     {"⇧", "⇫", 1.0, Mod, Shift, .scheme = 1},
@@ -249,8 +249,8 @@ static struct key de_full[] = {
 //     {"End", "End", 1.0, Code, KEY_END, .scheme = 1},
 //     /* end of layout */
 //     {"", "", 0.0, Last},
-}
-;
+// }
+// ;
 
 static struct key keys_compose_a[] = {
     {"à", "À", 1.0, Copy, 0x00E0, 0, 0x00C0},
@@ -388,9 +388,8 @@ static struct key keys_compose_i[] = {
 };
 
 static struct key keys_index[] = {
-    {"Full", "Full", 1.0, Layout, 0, &layouts[Full], .scheme = 1},
-    {"Special", "Special", 1.0, Layout, 0, &layouts[Special], .scheme = 1},
-    {"Абв", "Абв", 1.0, Layout, 0, &layouts[Cyrillic], .scheme = 1},
+    {"de_de", "de_de", 1.0, Layout, 0, &layouts[DE], .scheme = 1},
+    // {"Special", "Special", 1.0, Layout, 0, &layouts[Special], .scheme = 1},
     {"", "", 0.0, Last},
 };
 
