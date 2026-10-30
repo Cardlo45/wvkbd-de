@@ -137,7 +137,7 @@ static struct key de_full[] = {
     {"F12", "F12", 1.0, Code, KEY_F12},
     {"", "", 0.0, EndRow},
 
-    {"^", "°", 0.75, Code, 0x29},
+    {"^", "°", 0.75, Code, 0x5e},
     {"1", "!", 1.0, Code, KEY_1},
     {"2", "\"", 1.0, Code, KEY_2},
     {"3", "§", 1.0, Code, KEY_3},
@@ -204,7 +204,7 @@ static struct key de_full[] = {
     {"⌨͕", "⌨͔", 1.5, NextLayer, .scheme = 1},
     {"Win", "Win", 1.0, Mod, Super, .scheme = 1},
     {"Alt", "Alt", 1.0, Mod, Alt, .scheme = 1},
-    {"␣", "␣", 5.0, Code, KEY_SPACE},
+    {"␣", "␣", 4.5, Code, KEY_SPACE},
     {"AGr", "AGr", 1.0, Mod, AltGr, .scheme = 1},
     {"Cmp", "Cmp", 1.0, Compose, .scheme = 1},
     {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
