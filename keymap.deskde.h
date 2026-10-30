@@ -4,8 +4,8 @@ static const char *keymap_names[] = {"latin", "cyrillic"};
 
 static const char *keymaps[NUMKEYMAPS] = {
 
-  // LATIN
-  "xkb_keymap {\
+    // LATIN
+    "xkb_keymap {\
 xkb_keycodes \"(unnamed)\" {\
         minimum = 8;\
         maximum = 255;\
@@ -1467,8 +1467,8 @@ xkb_symbols \"(unnamed)\" {\
 };\
 \
 };\
-",  // CYRILLIC
-"xkb_keymap {\
+", // CYRILLIC
+    "xkb_keymap {\
 xkb_keycodes \"(unnamed)\" {\
         minimum = 8;\
         maximum = 255;\
@@ -2930,5 +2930,4 @@ xkb_symbols \"(unnamed)\" {\
 };\
 \
 };\
-"
-};
+"};
