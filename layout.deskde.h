@@ -137,7 +137,7 @@ static struct key de_full[] = {
     {"F12", "F12", 1.0, Code, KEY_F12},
     {"", "", 0.0, EndRow},
 
-    {"^", "°", 0.75, Code, 49}, // asciicircum
+    {"^", "°", 0.75, Code, 49 - 8}, // asciicircum
     {"1", "!", 1.0, Code, KEY_1},
     {"2", "\"", 1.0, Code, KEY_2},
     {"3", "§", 1.0, Code, KEY_3},
