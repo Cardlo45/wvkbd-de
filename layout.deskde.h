@@ -137,7 +137,7 @@ static struct key de_full[] = {
     {"F12", "F12", 1.0, Code, KEY_F12},
     {"", "", 0.0, EndRow},
 
-    {"^", "°", 0.75, Code, KEY_GRAVE},
+    {"^", "°", 0.75, Code, 0x29},
     {"1", "!", 1.0, Code, KEY_1},
     {"2", "\"", 1.0, Code, KEY_2},
     {"3", "§", 1.0, Code, KEY_3},
@@ -186,7 +186,7 @@ static struct key de_full[] = {
 
     {"⇧", "⇫", 2, Mod, Shift, .scheme = 1},
     {"<", ">", 1.0, Code, KEY_BACKSLASH},
-    {"z", "Z", 1.0, Code, KEY_Y, &layouts[ComposeY]},
+    {"y", "Y", 1.0, Code, KEY_Y, &layouts[ComposeY]},
     {"x", "X", 1.0, Code, KEY_X, &layouts[ComposeX]},
     {"c", "C", 1.0, Code, KEY_C, &layouts[ComposeC]},
     {"v", "V", 1.0, Code, KEY_V, &layouts[ComposeV]},
